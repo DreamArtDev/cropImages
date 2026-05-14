@@ -8,7 +8,7 @@ from smart_crop import smart_crop
 
 app = Flask(__name__)
 
-API_KEY = os.environ.get("API_KEY", "")
+API_KEY = os.environ.get("API_KEY", "8d7f9a8s7d9f8a7sd9f8a7sd98f7as9d8f7")
 
 
 @app.route("/", methods=["GET"])
